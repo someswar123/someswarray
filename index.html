@@ -1,0 +1,147 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Someswar SRay — Video Profile</title>
+  https://fonts.googleapis.com
+  https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap
+  <style>
+    :root {
+      --bg: #0f172a;      /* slate-900 */
+      --panel: #111827;   /* gray-900 */
+      --text: #e5e7eb;    /* gray-200 */
+      --muted: #94a3b8;   /* slate-400 */
+      --accent: #38bdf8;  /* sky-400 */
+      --green: #22c55e;   /* green-500 */
+    }
+    * { box-sizing: border-box; }
+    html, body { height: 100%; background: var(--bg); color: var(--text); font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .container { max-width: 1040px; margin: 0 auto; padding: 2rem; }
+    header { display: grid; grid-template-columns: 1fr auto; gap: 1rem; align-items: center; margin-bottom: 1.25rem; }
+    h1 { font-size: 2rem; margin: 0; line-height: 1.2; }
+    .tagline { color: var(--muted); margin-top: .3rem; }
+    .btn { display: inline-block; padding: .55rem .9rem; border-radius: .55rem; border: 1px solid rgba(255,255,255,.14); color: var(--text); text-decoration: none; margin-left: .4rem; }
+    .btn:hover { border-color: rgba(255,255,255,.35); }
+    .grid { display: grid; gap: 1.25rem; grid-template-columns: 1fr; }
+    @media (min-width: 980px) { .grid { grid-template-columns: 2fr 1fr; } }
+    .card { background: linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.02)); border: 1px solid rgba(255,255,255,.08); border-radius: 1rem; padding: 1rem; }
+    .card h2 { margin-top: 0; font-size: 1.25rem; }
+    .video { aspect-ratio: 16 / 9; width: 100%; background: #0b1020; border-radius: .75rem; overflow: hidden; border: 1px solid rgba(255,255,255,.08); }
+    .section-title { font-weight: 700; letter-spacing: .02em; margin-bottom: .5rem; }
+    .chips { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: .5rem; }
+    .chip { padding: .35rem .6rem; border-radius: 999px; background: rgba(56,189,248,.15); color: #bae6fd; border: 1px solid rgba(56,189,248,.35); font-size: .9rem; }
+    ul { margin: .5rem 0 0; padding-left: 1rem; }
+    li { margin: .35rem 0; color: var(--muted); }
+    footer { margin-top: 2rem; color: var(--muted); font-size: .9rem; display:flex;justify-content:space-between;align-items:center;gap:.5rem;flex-wrap:wrap;}
+    .brand { color: var(--green); font-weight: 700; }
+    .small { font-size: .95rem; color: var(--muted); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div>
+        <h1>Someswar SRay</h1>
+        <div class="tagline">Building Prototypes & Platforms — Horizontal Scaling, Quality Engineering • AI (Document Intelligence) [1](https://www.linkedin.com/in/somesray)</div>
+      </div>
+      <div class="links">
+        mailto:someswar@example.comEmail</a>
+        <a class="btn" href="https://www.linkedin.com/in/somesray" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn" href="https://github.com/SrimaBUIT" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </header>
+
+    <div class="grid">
+      <!-- Left column: video + about + skills -->
+      <div class="card">
+        <h2>90‑Second Video Profile</h2>
+
+        <!-- Option A: Hosted video (Loom/Vidyard/VEED) — replace src with your share URL -->
+        <div class="video">
+          <!-- Replace the URL below when you have your recording -->
+          <iframe
+            src="https://www.loom.com/share/YOUR_VIDEO_ID"
+            title="Video Profile"
+            width="100%"
+            height="100%"
+                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+        </div>
+
+        <!-- Option B: Self-hosted MP4 in the repo — uncomment if you upload profile.mp4 -->
+        <!--
+        <video class="video" controls poster="thumbnail.jpg">
+          profile.mp4
+          Your browser does not support the video tag.
+        </video>
+        -->
+
+        <h2 style="margin-top:1rem;">About</h2>
+        <p class="small">
+          I help startups and enterprises build small, scalable products using open‑source technology and hybrid business
+          models. My work spans platform engineering (horizontal scaling, performance & DB optimization), DevOps,
+          and quality engineering. I’ve led transformation programs and enterprise architecture across BPM (Pega, Appian),
+          CRM (Salesforce portals), SCM (Oracle E‑Business Suite, SAP), loan management, and insurance portals. [1](https://www.linkedin.com/in/somesray)
+        </p>
+        <p class="small">
+          Additional interests include building platforms for digital media & entertainment and prototypes in applied life
+          sciences—Genetics, DNA Footprint, alert management systems, and SaaS performance dashboards. [1](https://www.linkedin.com/in/somesray)
+        </p>
+
+        <div class="section-title">Services</div>
+        <div class="chips">
+          <span class="chip">IT Consulting</span>
+          <span class="chip">Cybersecurity</span>
+          <span class="chip">Information Security</span>
+          <span class="chip">Cloud App Dev</span>
+          <span class="chip">Software Testing</span>
+        </div>
+        <div class="small" style="margin-top:.35rem;">[1](https://www.linkedin.com/in/somesray)</div>
+
+        <div class="section-title" style="margin-top:1rem;">Focus Areas & Skills</div>
+        <div class="chips">
+          <span class="chip">Azure / AKS</span>
+          <span class="chip">DevOps & CI/CD</span>
+          <span class="chip">Performance Engineering</span>
+          <span class="chip">Database Optimization</span>
+          <span class="chip">Microservices</span>
+          <span class="chip">Security (CISSP prep)</span>
+          <span class="chip">Document Intelligence (AI)</span>
+          <span class="chip">Open Source</span>
+        </div>
+      </div>
+
+      <!-- Right column: highlights + links -->
+      <div class="card">
+        <h2>Highlights</h2>
+        <ul>
+          <li>Chief Information Officer — SrimaBU IT Division (NYC metro): Business development in IT (Performance Engineering, QA) & Bioinformatics lab setups in US & India. [1](https://www.linkedin.com/in/somesray)</li>
+          <li>Led horizontal scaling of databases, microservices modularization, and performance engineering for operational apps. [1](https://www.linkedin.com/in/somesray)</li>
+          <li>Enterprise architecture leadership across BPM, CRM, SCM, and regulated financial apps (loans, insurance). [1](https://www.linkedin.com/in/somesray)</li>
+        </ul>
+
+        <h2 style="margin-top:1rem;">Links</h2>
+        <ul>
+          <li>LinkedIn: <a href="https://www.linkedin.com/in/somesray" target="_blank" rel="noopener">/in/somesray</a> [1](https://www.linkedin.com/in/somesray)</li>
+          <li>GitHub: <a href="https://github.com/SrimaBUIT" target="_blank" rel="noopener">SrimaBUIT</a> [2](https://github.com/SrimaBUIT)</li>
+          <li>Recent LinkedIn activity (platform performance engineering): <a href="https://www.linkedin.com/posts/somesray_platform-performance-engineering-platform-activity-7240725132523053056-X9dP" target="_blank" rel="noopener">post</a> [3](https://www.linkedin.com/posts/somesray_platform-performance-engineering-platform-activity-7240725132523053056-X9dP)</li>
+        </ul>
+      </div>
+    </div>
+
+    <footer>
+      <p>© <span id="year"></span> Someswar SRay • <span class="brand">Built for fast sharing via GitHub Pages</span></p>
+      <p class="small">To replace the video: paste your Loom/Vidyard/VEED share URL into the iframe <code>src</code>, or upload <code>profile.mp4</code> and uncomment the local <code>&lt;video&gt;</code> block.</p>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
